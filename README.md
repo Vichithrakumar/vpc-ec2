@@ -16,6 +16,8 @@ You can manually edit the Values in tfvars and ec2.tf files to make changes.
 
 # How to run
 
+Make Sure you have configured aws-cli before running the script.
+
 **git clone https://git.spiralbean.com/vichitrakumar/vpc-ec2.git ; cd vpc-ec2 ; chmod +x run.sh ; bash run.sh**
 
 # Destroy
