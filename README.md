@@ -4,7 +4,7 @@ This is a combination of terraform with bash and can be useful when you wish to 
 
 One of the EC2 instance will be placed in Public Subnet and Other will be placed in private subnet.
 
-You can also avoid using the bash script.
+You can also avoid using the bash script used in this.
 
 # Note
 
@@ -18,7 +18,7 @@ You can manually edit the Values in tfvars and ec2.tf files to make changes.
 
 Make Sure you have configured aws-cli before running the script.
 
-**git clone https://git.spiralbean.com/vichitrakumar/vpc-ec2.git ; cd vpc-ec2 ; chmod +x run.sh ; bash run.sh**
+**git clone https://github.com/Vichithrakumar/vpc-ec2.git ; cd vpc-ec2 ; chmod +x run.sh ; bash run.sh**
 
 # Destroy
 
